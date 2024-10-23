@@ -1,0 +1,203 @@
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #212121;
+    padding: 40px 30px;
+    color: #fff;
+}
+
+.search-bar input {
+    padding: 8px;
+    width: 200px;
+    border: none;
+}
+
+.search-bar button {
+    background-color: #e50047;
+    border: none;
+    padding: 10px;
+}
+
+.logo h1 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.user {
+    display: flex;
+    align-items: justify;
+    
+}
+.cart {
+    margin-left: 10px;
+    display: flex;
+    align-items: justify;
+}
+
+.cart-count {
+    background-color: #e50047;
+    color: white;
+    padding: 2px 6px;
+    border-radius: 50%;
+    font-size: 12px;
+    position: relative;
+    top: -10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    padding: 10px;
+    margin: 0;
+    background-color: #333;
+}
+
+nav ul li {
+    padding: 10px 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.hero {
+    text-align: center;
+    margin: 20px 220px;
+}
+
+.featured-products {
+    padding: 20px;
+}
+
+.featured-products h3 {
+    text-align: center;
+}
+
+.product-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.product {
+    width: 18%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.product img {
+    width: 100%;
+    border: 1px solid #e0e0e0;
+    margin-bottom: 10px;
+}
+
+.old-price {
+    text-decoration: line-through;
+    color: #888;
+}
+
+.new-price, .price {
+    color: #e50047;
+    font-weight: bold;
+}
+
+.discount-badge {
+    background-color: #e50047;
+    color: #fff;
+    padding: 2px 6px;
+    position: absolute;
+    margin-top: -10px;
+    font-size: 12px;
+}
+
+.free-badge {
+    background-color: #00aaff;
+    color: #fff;
+    padding: 2px 6px;
+    position: absolute;
+    margin-top: -10px;
+    font-size: 12px;
+}
+/* Sección de información */
+.info-section {
+    display: flex;
+    justify-content: space-around;
+    background-color: #121212;
+    padding: 40px;
+    color: #fff;
+    margin: 20px 0;
+}
+
+.info-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+}
+
+.info-button i {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.info-button p {
+    font-size: 14px;
+    margin: 0;
+    text-align: center;
+}
+/* Estilos para el carrusel */
+.carousel {
+    position: relative;
+    max-width: 100%;
+    margin: 40px auto;
+}
+
+.carousel-container {
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+}
+
+.carousel-slide {
+    min-width: 100%;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel-slide img {
+    width: 100%;
+    height: auto;
+}
+
+.prev, .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
+
+.prev:hover, .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+

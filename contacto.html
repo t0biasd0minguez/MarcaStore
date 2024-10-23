@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="contacto.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+    <!-- Barra de búsqueda y menú -->
+    <header>
+        <div class="search-bar">
+            <input type="text" placeholder="¿Qué estás buscando?">
+            <button><i class="bi bi-search"></i></button>
+        </div>
+        <div class="logo">
+            <h1>Marca Store</h1>
+        </div>
+        <div class="user">
+            <button><i class="bi bi-person"></i></button>
+            <div class="cart">
+                <button><i class="bi bi-cart4"></i></button>
+                <span class="cart-count">0</span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Menú de navegación -->
+    <nav>
+        <ul>
+            <li><a href="inicio.html">Inicio</a></li>
+            <li><a href="productos.html">Productos</a></li>
+            <li><a href="#">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <!-- Apartado de Contacto -->
+    <section class="contact-section">
+        <h2>Contacto</h2>
+        <div class="socials">
+            <div>
+                <span>marcastorepy</span>
+                <a href="https://www.instagram.com/marcastorepy/profilecard/?igsh=MTgzcDYwcXkzd3VkOQ==" class="btn-instagram"><i class="bi bi-instagram"></i> Seguir</a>
+            </div>
+            <div>
+                <span>Tobias Domínguez</span>
+                <a href="https://wa.me/595984332184?text=Hola%20me%20interesa%20tu%20producto" class="btn-whatsapp"> <i class="bi bi-whatsapp"></i> Chatear</a>
+            </div>
+        </div>
+
+        <form class="contact-form">
+            <label for="name">Nombre</label>
+            <input type="text" id="name" placeholder="Escribe tu nombre">
+            
+            <label for="email">Correo electrónico</label>
+            <input type="email" id="email" placeholder="Escribe tu correo">
+            
+            <label for="message">Mensaje</label>
+            <textarea id="message" rows="4" placeholder="Escribe tu mensaje"></textarea>
+            
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+</body>
+</html>
